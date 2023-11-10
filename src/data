@@ -1,0 +1,65 @@
+
+const videoLinke = [
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/TCo_GWD_PBasket_Ring_RC04_CONFORM_V4',
+  },
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/HOLIDAY-HP-FWMH-PRODUCT-10_v1-DESKTOP',
+  },
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/TIFFANYxTS_ROUND_10-SEC_16x9_NO_LOGOS_H264',
+  },
+  { url: '' },
+];
+
+const imageLinke = [
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/TCo_GWD_PBasket_Ring_RC04_CONFORM_V4',
+  },
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/HOLIDAY-HP-FWMH-PRODUCT-10_v1-DESKTOP',
+  },
+  {
+    url: 'https://www.tiffany.com/engagement/shop/wedding-band-sets/tiffany-t/',
+  },
+  { url: 'https://www.tiffany.com/engagement/shop/wedding-band-sets/tiffany-forever/' },
+  { url: 'https://www.tiffany.com/engagement/shop/engagement-rings/' },
+
+];
+
+const sample = [
+  {
+    url: "",
+  },
+  {
+    url: "",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/heart-shape/",
+  },
+  { url: "https://www.tiffany.com/engagement/shop/engagement-rings/" },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/pear-shape/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/cushion-cut/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/wedding-band-sets/tiffany-forever/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/cushion-cut/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/emerald-cut/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/princess-cut/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/tiffany-true/",
+  },
+  {
+    url: "https://www.tiffany.com/engagement/shop/engagement-rings/round-brilliant-cut/",
+  },
+];

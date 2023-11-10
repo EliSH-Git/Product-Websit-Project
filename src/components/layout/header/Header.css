@@ -1,0 +1,19 @@
+
+
+header{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    color: brown;
+    background-color: #99f2c8;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    margin-right: 5rem;
+    padding: 0;
+}
