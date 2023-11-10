@@ -32,7 +32,8 @@ const productsData = [{"id":1,"name":"Carbonated Water - Peach","price":39,"bran
 {"id":27,"name":"Pastry - Baked Cinnamon Stick","price":45,"brand":"Podcat","quantity":"59"},
 {"id":28,"name":"Cookie Double Choco","price":53,"brand":"Buzzshare","quantity":"8085"},
 {"id":29,"name":"Plastic Wrap","price":44,"brand":"Bluejam","quantity":"9"},
-{"id":30,"name":"Wine - Sicilia Igt Nero Avola","price":44,"brand":"Quimba","quantity":"8"},]
+  { "id": 30, "name": "Wine - Sicilia Igt Nero Avola", "price": 44, "brand": "Quimba", "quantity": "8" },]
+const foto = {}
 
 const Products = () => {
   return (
@@ -45,7 +46,7 @@ const Products = () => {
                             hover:scale-105 ease-in duration-100 hover:shadow-fuchsia-200 hover:shadow-inner'
                             >
               <a className='' href=''>
-              <img className=''src="" alt="" />
+              <img className=''src={"GlasKugelSchach"} alt="" />
                 <div className='w-full '>
                   <h3 className='font-bold p-2'>{product.name}</h3>
                   <p className='text-xs font-bold'>- {product.brand}</p>
