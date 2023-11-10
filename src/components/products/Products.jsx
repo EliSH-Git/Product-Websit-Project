@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import productsData from './productsData.json';
+ import productsData from './productsData.json';
 
 
 const productsData = [{"id":1,"name":"Carbonated Water - Peach","price":39,"brand":"Janyx","quantity":"8794"},
@@ -33,20 +33,68 @@ const productsData = [{"id":1,"name":"Carbonated Water - Peach","price":39,"bran
 {"id":28,"name":"Cookie Double Choco","price":53,"brand":"Buzzshare","quantity":"8085"},
 {"id":29,"name":"Plastic Wrap","price":44,"brand":"Bluejam","quantity":"9"},
   { "id": 30, "name": "Wine - Sicilia Igt Nero Avola", "price": 44, "brand": "Quimba", "quantity": "8" },]
-const foto = {}
+
+  const imageLinke = [
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/TCo_GWD_PBasket_Ring_RC04_CONFORM_V4',
+  },
+  {
+    url: 'https://media.tiffany.com/is/content/tiffanydm/HOLIDAY-HP-FWMH-PRODUCT-10_v1-DESKTOP',
+  },
+  {
+    url: 'https://www.tiffany.com/engagement/shop/wedding-band-sets/tiffany-t/',
+  },
+  { url: 'https://www.tiffany.com/engagement/shop/wedding-band-sets/tiffany-forever/' },
+  { url: 'https://www.tiffany.com/engagement/shop/engagement-rings/' },
+
+];
+
+
+// const Products = () => {
+//   return (
+//      <>
+//       <h2 className='text-xl'></h2>
+//       <div className='flex flex-wrap h-screen gap-5 p-3'>
+//         {productsData.map(product => (
+//           <div key={product.id}>
+//             <div className='flex shadow-md shadow-purple-950 w-48 p-3 h-80 bg-fuchsia-50 fonts-graphik rounded-xl translate-x-2
+//                             hover:scale-105 ease-in duration-100 hover:shadow-fuchsia-200 hover:shadow-inner'
+//                             >
+//               <a className='' href=''>
+//               <img className=''src={imageLinke} alt="" />
+//                 <div className='w-full '>
+//                   <h3 className='font-bold p-2'>{product.name}</h3>
+//                   <p className='text-xs font-bold'>- {product.brand}</p>
+//                   <p className='text-xs p-2'>- Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />- Doloribus vitae sequi amet similique? Dolore fugiat.</p>
+//                   <p className='text-right font-bold text-lg text-fuchsia-950'>{product.price},-€</p>
+//                 </div>
+//               </a>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </>
+//   )
+// }
+
+// export default Products
+
+
+// ... (previous code)
 
 const Products = () => {
   return (
-     <>
+    <>
       <h2 className='text-xl'></h2>
       <div className='flex flex-wrap h-screen gap-5 p-3'>
-        {productsData.map(product => (
+        {productsData.map((product, index) => (
           <div key={product.id}>
             <div className='flex shadow-md shadow-purple-950 w-48 p-3 h-80 bg-fuchsia-50 fonts-graphik rounded-xl translate-x-2
                             hover:scale-105 ease-in duration-100 hover:shadow-fuchsia-200 hover:shadow-inner'
-                            >
+            >
               <a className='' href=''>
-              <img className=''src={"GlasKugelSchach"} alt="" />
+                {/* Use the index to get the corresponding image URL */}
+                <img className='' src={imageLinke[index].url} alt="" />
                 <div className='w-full '>
                   <h3 className='font-bold p-2'>{product.name}</h3>
                   <p className='text-xs font-bold'>- {product.brand}</p>
@@ -59,7 +107,7 @@ const Products = () => {
         ))}
       </div>
     </>
-  )
+  );
 }
 
-export default Products
+export default Products;
