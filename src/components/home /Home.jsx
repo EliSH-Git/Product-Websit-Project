@@ -1,50 +1,8 @@
-import React from "react";
-import "./Home.css";
-const image = [
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHer-1?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 1",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-Product-MktgTile-EXC-4?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 2",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHome-1?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 3",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHim-1?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 5",
-  },
-];
 
-const imageTwo = [
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Necklace_op3?$tile$&&fmt=webp",
-    title: "Bild 1",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Rings?$tile$&&fmt=webp",
-    title: "Bild 2",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Earrings?$tile$&&fmt=webp",
-    title: "Bild 3",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Bracelet?$tile$&&fmt=webp",
-    title: "Bild 4",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/EngagementRings?$tile$&&fmt=webp",
-    title: "Bild 5",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HomeDecor?$tile$&&fmt=webp",
-    title: "Bild 5",
-  },
-];
+import "./Home.css";
+
+import  homeBilder from '../home /homeBilder';
+
 
 const Home = () => {
   return (
@@ -63,45 +21,46 @@ const Home = () => {
           <button className="button">Sing up</button>
         </div>
       </section>
-      <div className="first-section">
-        {image.length === 0 ? (
+      <section className="section-one">
+         <div className="first-section">
+        {homeBilder.length === 0 ? (
           <p>Die Liste ist leer.</p>
         ) : (
           <div className="first-section-child">
-            {image.map((item, index) => {
+            {homeBilder.slice(0, 4).map((item, index) => {
               return (
-                <div key={index} style={{ width: "150px" }}>
+                <div key={index}>
                   <img
                     className="img"
                     style={{ width: "100%" }}
                     src={item.url}
                     alt={item.title}
                   />
-
-                  <p>das hier ist bild nummer: {index}</p>
+                  <h6 className="h6-name">{item.name}</h6>
                 </div>
               );
             })}
           </div>
         )}
       </div>
-      <section>
+      </section>
+     
+      <section className="section-one">
         <div className="first-section">
-          {image.length === 0 ? (
+          {homeBilder.length === 0 ? (
             <p>Die Liste ist leer.</p>
           ) : (
             <div className="first-section-child">
-              {imageTwo.map((item, index) => {
+              {homeBilder.slice(4, 10).map((item, index) => {
                 return (
-                  <div key={index} style={{ width: "150px" }}>
+                  <div key={index}>
                     <img
                       className="img"
-                      style={{ width: "100%" }}
                       src={item.url}
                       alt={item.title}
                     />
 
-                    <p>das hier ist bild nummer: {index}</p>
+                         <h6 className="h6-name">{item.name}</h6>
                   </div>
                 );
               })}

@@ -11,14 +11,14 @@
 }
 
 
-
+.section-one {
+ width: 90vw;
+ margin: 0 auto;
+}
 .first-section {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f0f0; 
+  justify-content: space-around;
+  /* background-color: #f0f0f0;  */
   padding: 20px;
   margin-top: 5rem;
 }
@@ -32,6 +32,10 @@
     display: flex;
     gap: 2rem;
     
+}
+
+.h6-name {
+  text-align: center;
 }
 
 

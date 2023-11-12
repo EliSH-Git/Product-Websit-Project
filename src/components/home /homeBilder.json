@@ -1,0 +1,77 @@
+
+
+[
+  {
+    "id": 0,
+    "name": "Gifts for Her",
+    "price": 299.99,
+    "brand": "Wedding Band",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHer-1?$tile$&wid=988&hei=988&fmt=webp"
+  },
+  {
+    "id":1,
+   " name": "Women's Accessories",
+    "price": 199.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-Product-MktgTile-EXC-4?$tile$&wid=988&hei=988&fmt=webp"
+  },
+{
+    "id": 2,
+    "name": "Gifts for the Home",
+    "price": 299.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHome-1?$tile$&wid=988&hei=988&fmt=webp"
+  },
+  {
+    "id": 3,
+   " name": "Gifts for Him",
+    "price": 199.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHim-1?$tile$&wid=988&hei=988&fmt=webp"
+  },
+{
+    "id": 4,
+    "name": "Necklaces & Pendants",
+    "price": 299.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/Necklace_op3?$tile$&&fmt=webp"
+  },
+  {
+    "id": 5,
+   " name": "Rings",
+    "price": 199.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/Rings?$tile$&&fmt=webp"
+  },
+  {
+    "id": 6,
+    "name": "Earrings",
+    "price": 299.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/Earrings?$tile$&&fmt=webp"
+  },
+  {
+    "id": 7,
+   " name": "Bracelets",
+    "price": 199.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/Bracelet?$tile$&&fmt=webp"
+  },
+{
+    "id": 8,
+    "name": "Engagement Rings",
+    "price": 299.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/EngagementRings?$tile$&&fmt=webp"
+  },
+  {
+    "id": 9,
+   " name": "Home",
+    "price": 199.99,
+    "brand": "TIFFANY& CO.",
+    "url": "https://media.tiffany.com/is/image/tiffanydm/HomeDecor?$tile$&&fmt=webp"
+  }
+]
+
+
+

@@ -1,15 +1,18 @@
 
 
 .footer {
+  position: fixed;
+   z-index: -3;
+  bottom: 0;
   display: flex;
   justify-content: start;
-  gap: 5rem;
-  padding: 20px;
+  gap: 2rem;
   width: 100vw;
     height: auto;
-    background-color: #eaede9df;
-    border-top: 4px solid #99f2c8;
+    /* background-color: #eaede9df; */
+    border-top: 6px solid  #6bded6;
     position: relative;
+    margin-top: 5rem;
 }
 
 .footer-link {
@@ -23,21 +26,22 @@
    letter-spacing: 1.5px; 
    line-height: 3rem;
 }
+
 h6{
   color: black;
 
 }
-span{
+.copyright{
     display: flex;
     color: #5f6562;
     justify-content: center;
     align-items: end;
-    margin-left: 7rem;
+   
 }
 
 a {
   position: relative;
-  color: #99f2c8;
+  color: black;
   cursor: pointer;
 }
 
@@ -48,7 +52,7 @@ a::after {
   left: 100%; 
   width: 0;
   height: 3px; 
-  background-color: #99f2c8;
+  background-color:  #6bded6;
   transition: width 0.10s ; 
 }
 
@@ -99,14 +103,17 @@ margin-right: 3rem;
 }
 
 .footer-input{
+   
+
     border: none;
     border-bottom: 1px solid #424d44;
     width: 80%;
+    height: 2rem;
 }
 
 .footer-input:focus{
     outline: red;
-    border-bottom: 1px solid #99f2c8
+    border-bottom: 1px solid  #6bded6
 }
 
 .footer-input::placeholder{
