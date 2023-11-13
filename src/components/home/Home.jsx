@@ -50,9 +50,14 @@ const Home = () => {
   return (
     <>
       <h4> TIFFANY & CO.</h4>
-      <section className="section-5"><h2 style={{color:"red"}} > "Hier soll ein Video playen!" </h2>
+      <section className="section-5">
         
-        <div className="background-container-video"></div>
+        <div className="background-container-video">
+          <video controls width="100%">
+            <source src="https://media.tiffany.com/is/content/tiffanydm/HOLIDAY-HP-FWMH-PRODUCT-10_v1-DESKTOP" type="video/mp4" />
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </div>
         <div>
           <h2>Unwrap Joy</h2>
           <p>
