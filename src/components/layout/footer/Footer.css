@@ -5,7 +5,7 @@
   justify-content: start;
   gap: 2rem;
   width: 100vw;
-  height: auto;
+  /* height: auto; */
   border-top: 6px solid #6bded6;
   position: relative;
   margin-top: 5rem;
@@ -19,7 +19,7 @@
   color: #424d44;
   text-decoration: none;
   font-size: 0.65rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   line-height: 3rem;
 }
 
@@ -127,4 +127,11 @@ p {
   cursor: pointer;
   margin-top: 1.5rem;
   width: 14rem;
+}
+
+.span-right {
+display: flex;
+justify-content: center;
+align-items: end;
+margin-left:0;
 }

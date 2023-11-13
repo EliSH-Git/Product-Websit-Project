@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -78,13 +78,13 @@ const Footer = () => {
           <h5>Latest from Tiffany</h5>
           <p>
             Be the first to know about exciting new designs,
-            <br/>special events,
-            store openings and much more.
+            <br />
+            special events, store openings and much more.
           </p>
           <input className="footer-input" type="text" placeholder="Email" />
           <button className="button">Sing up</button>
         </div>
-        <div className="icon" >
+        <div className="icon">
           <a href={"https://www.instagram.com"}>
             {/* <FontAwesomeIcon icon={faInstagram} /> */}
             instagram
@@ -102,9 +102,8 @@ const Footer = () => {
             pinterest
           </a>
         </div>
-        
       </div>
-      <span>© T&CO. 2023 </span>
+      <div  className="span-right"> <p>© T&CO. 2023</p>  </div>
     </div>
   );
 };

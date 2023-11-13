@@ -1,60 +1,17 @@
-import React from "react";
 import "./Home.css";
-const image = [
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHer-1?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 1",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-Product-MktgTile-EXC-4?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 2",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHome-1?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 3",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HOLIDAY-MWTS-988x988-GiftsForHim-1?$tile$&wid=988&hei=988&fmt=webp",
-    title: "Bild 5",
-  },
-];
-
-const imageTwo = [
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Necklace_op3?$tile$&&fmt=webp",
-    title: "Bild 1",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Rings?$tile$&&fmt=webp",
-    title: "Bild 2",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Earrings?$tile$&&fmt=webp",
-    title: "Bild 3",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/Bracelet?$tile$&&fmt=webp",
-    title: "Bild 4",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/EngagementRings?$tile$&&fmt=webp",
-    title: "Bild 5",
-  },
-  {
-    url: "https://media.tiffany.com/is/image/tiffanydm/HomeDecor?$tile$&&fmt=webp",
-    title: "Bild 5",
-  },
-];
+import ringImgList from "../products/singleProduct/ringImgList";
 
 const Home = () => {
   return (
     <>
       <h4> TIFFANY & CO.</h4>
       <section className="section-5">
-        
         <div className="background-container-video">
           <video controls width="100%">
-            <source src="https://media.tiffany.com/is/content/tiffanydm/HOLIDAY-HP-FWMH-PRODUCT-10_v1-DESKTOP" type="video/mp4" />
+            <source
+              src="https://media.tiffany.com/is/content/tiffanydm/HOLIDAY-HP-FWMH-PRODUCT-10_v1-DESKTOP"
+              type="video/mp4"
+            />
             Sorry, your browser doesn't support embedded videos.
           </video>
         </div>
@@ -62,51 +19,49 @@ const Home = () => {
           <h2>Unwrap Joy</h2>
           <p>
             {" "}
-                Tiffany holiday gifts have inspired love since 1837. 
-             <br />Discover our most coveted designs for this season and beyond.
+            Tiffany holiday gifts have inspired love since 1837.
+            <br />
+            Discover our most coveted designs for this season and beyond.
           </p>
           <button className="button">Sing up</button>
         </div>
       </section>
-      <div className="first-section">
-        {image.length === 0 ? (
-          <p>Die Liste ist leer.</p>
-        ) : (
-          <div className="first-section-child">
-            {image.map((item, index) => {
-              return (
-                <div key={index} style={{ width: "150px" }}>
-                  <img
-                    className="img"
-                    style={{ width: "100%" }}
-                    src={item.url}
-                    alt={item.title}
-                  />
-
-                  <p>das hier ist bild nummer: {index}</p>
-                </div>
-              );
-            })}
-          </div>
-        )}
-      </div>
-      <section>
+      <section className="section-one">
         <div className="first-section">
-          {image.length === 0 ? (
+          {ringImgList.length === 0 ? (
             <p>Die Liste ist leer.</p>
           ) : (
             <div className="first-section-child">
-              {imageTwo.map((item, index) => {
+              {ringImgList.slice(43, 47).map((item, index) => {
                 return (
-                  <div key={index} style={{ width: "150px" }}>
+                  <div key={index}>
                     <img
                       className="img"
                       style={{ width: "100%" }}
                       src={item.url}
                       alt={item.title}
                     />
+                    <h6 className="h6-name">{item.name}</h6>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </section>
 
-                    <p>das hier ist bild nummer: {index}</p>
+      <section className="section-one">
+        <div className="first-section">
+          {ringImgList.length === 0 ? (
+            <p>Die Liste ist leer.</p>
+          ) : (
+            <div className="first-section-child">
+              {ringImgList.slice(47, 53).map((item, index) => {
+                return (
+                  <div key={index}>
+                    <img className="img" src={item.url} alt={item.title} />
+
+                    <h6 className="h6-name">{item.name}</h6>
                   </div>
                 );
               })}
@@ -135,8 +90,10 @@ const Home = () => {
           <p>
             {" "}
             Handcrafting the world’s best diamonds starts with knowing
-             <br />where they come from. We proudly trace 100% of our rough
-             <br />diamonds to known mines and sources.
+            <br />
+            where they come from. We proudly trace 100% of our rough
+            <br />
+            diamonds to known mines and sources.
           </p>
           <a href="/link1">
             Follow Your Diamond's Jouney <span>icon {">"} </span>{" "}
@@ -145,14 +102,16 @@ const Home = () => {
         <div className="background-container-two"></div>
       </section>
       <section className="section-5">
-         <div className="background-container-three"></div>
+        <div className="background-container-three"></div>
         <div>
           <h2>At Your Service</h2>
           <p>
             {" "}
-            
-             <br />From finding the present to product personalization, master the art of holiday 
-             <br />gifting with a little help from Tiffany & Co. Client Advisors.
+            <br />
+            From finding the present to product personalization, master the art
+            of holiday
+            <br />
+            gifting with a little help from Tiffany & Co. Client Advisors.
           </p>
           <button className="button">Sing up</button>
         </div>
