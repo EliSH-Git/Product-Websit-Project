@@ -50,7 +50,7 @@ const Home = () => {
   return (
     <>
       <h4> TIFFANY & CO.</h4>
-      <section className="section-5"><h style={{color:"red"}} > "Hier soll ein Video playen!" </h>
+      <section className="section-5"><h2 style={{color:"red"}} > "Hier soll ein Video playen!" </h2>
         
         <div className="background-container-video"></div>
         <div>
@@ -120,7 +120,7 @@ const Home = () => {
             This holiday, write the next chapter of your love story.
           </p>
           <a href="/link1">
-            Love & Engagement <spa>icon {">"} </spa>{" "}
+            Love & Engagement <span>icon {">"} </span>{" "}
           </a>
         </div>
       </section>
@@ -134,7 +134,7 @@ const Home = () => {
              <br />diamonds to known mines and sources.
           </p>
           <a href="/link1">
-            Follow Your Diamond's Jouney <spa>icon {">"} </spa>{" "}
+            Follow Your Diamond's Jouney <span>icon {">"} </span>{" "}
           </a>
         </div>
         <div className="background-container-two"></div>

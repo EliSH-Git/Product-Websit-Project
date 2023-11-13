@@ -5,8 +5,7 @@ import Products from '../components/products/Products';
 import Contact from '../components/Contact';
 import NotFound from '../components/NotFound';
 import About from '../components/About';
-
-
+import SingleProduct from '../components/products/singleProduct/SingleProduct';
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +26,10 @@ export const router = createBrowserRouter([
         {
           path: '/about',
           element: <About />,
+        },
+        {
+          path: '/products/:productId',
+          element: <SingleProduct />,
         },
         {
           path: '*',

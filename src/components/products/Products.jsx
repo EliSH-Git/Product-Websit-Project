@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 // import productsData from './productsData.json';
-
 
 const productsData = [{"id":1,"name":"Carbonated Water - Peach","price":39,"brand":"Janyx","quantity":"8794"},
 {"id":2,"name":"Dasheen","price":58,"brand":"Zoombox","quantity":"03728"},
@@ -41,10 +41,10 @@ const Products = () => {
       <div className='flex flex-wrap h-screen gap-5 p-3'>
         {productsData.map(product => (
           <div key={product.id}>
+            <Link to={`/products/${product.id}`}>
             <div className='flex shadow-md shadow-purple-950 w-48 p-3 h-80 bg-fuchsia-50 fonts-graphik rounded-xl translate-x-2
                             hover:scale-105 ease-in duration-100 hover:shadow-fuchsia-200 hover:shadow-inner'
                             >
-              <a className='' href=''>
               <img className=''src="" alt="" />
                 <div className='w-full '>
                   <h3 className='font-bold p-2'>{product.name}</h3>
@@ -52,8 +52,9 @@ const Products = () => {
                   <p className='text-xs p-2'>- Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />- Doloribus vitae sequi amet similique? Dolore fugiat.</p>
                   <p className='text-right font-bold text-lg text-fuchsia-950'>{product.price},-€</p>
                 </div>
-              </a>
+                <button>View Product Details</button>
             </div>
+            </Link> 
           </div>
         ))}
       </div>
