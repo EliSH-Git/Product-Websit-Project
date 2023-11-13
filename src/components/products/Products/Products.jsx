@@ -9,10 +9,26 @@ import ringImgList from "../singleProduct/ringImgList";
 import { Link } from "react-router-dom";
 
 
+
+
+// ________________________________________________________________________________________________________________
+
+
+
 function Products() {
   return (
     <>
-     
+       {/* <Link to={`/products/${item.id}`}>View Details</Link> */}
+      {/* <section>
+        {
+          ringImgList.map((item) => (
+              <SingleProduct 
+                key={item.id}
+                singleProduct = {item}
+            />
+         ))}
+      </section> */}
+    
       <div className="products-container">
         <h2 className="title">Rings</h2>
         {productsData.length === 0 ? (
@@ -71,7 +87,7 @@ function Products() {
             <p>The list is empty.</p>
           ) : (
               <div className="product-list-section-three">
-                <div className="div-img-HOLIDAY-ring">
+                <div className="div-img-HOLIDAY">
                   <img
                     className="HOLIDAY-RING"
                     src="src/components/products/ringBilder/HOLIDAY.webp"
