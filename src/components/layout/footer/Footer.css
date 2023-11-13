@@ -1,15 +1,14 @@
-
-
 .footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: start;
-  gap: 5rem;
-  padding: 20px;
+  gap: 2rem;
   width: 100vw;
-    height: auto;
-    background-color: #eaede9df;
-    border-top: 4px solid #99f2c8;
-    position: relative;
+  height: auto;
+  border-top: 6px solid #6bded6;
+  position: relative;
+  margin-top: 5rem;
 }
 
 .footer-link {
@@ -19,121 +18,113 @@
 .footer-link a {
   color: #424d44;
   text-decoration: none;
-  font-size: .65rem;
-   letter-spacing: 1.5px; 
-   line-height: 3rem;
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  line-height: 3rem;
 }
-h6{
-  color: black;
 
+h6 {
+  color: black;
 }
-span{
-    display: flex;
-    color: #5f6562;
-    justify-content: center;
-    align-items: end;
-    margin-left: 7rem;
+.copyright {
+  display: flex;
+  color: #5f6562;
+  justify-content: center;
+  align-items: end;
 }
 
 a {
   position: relative;
-  color: #99f2c8;
   cursor: pointer;
 }
 
 a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
-  left: 100%; 
+  left: 100%;
   width: 0;
-  height: 3px; 
-  background-color: #99f2c8;
-  transition: width 0.10s ; 
+  height: 3px;
+  background-color: #6bded6;
+  transition: width 0.1s;
 }
 
 a:hover::after {
-  left: 0; 
-  width: 100%; 
+  left: 0;
+  width: 100%;
 }
-
 
 .social-media-icons {
   margin-top: 20px;
   position: absolute;
   right: 1rem;
-  bottom: 1rem ;
+  bottom: 1rem;
 }
 
 .social-media-icons a {
   font-size: 22px;
-  margin: 2rem .5rem;
+  margin: 2rem 0.5rem;
   text-decoration: none;
   display: inline-block;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
-.icon{
-margin-right: 3rem;
+.icon {
+  margin-right: 3rem;
 }
 
 .social-media-icons a:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
-
-
 .fa-instagram {
-  color: #E4405F; /* Instagram-Farbe */
+  color: #e4405f; /* Instagram-Farbe */
 }
 
 .fa-youtube {
-  color: #FF0000; /* YouTube-Farbe */
+  color: #ff0000; /* YouTube-Farbe */
 }
 
 .fa-twitter {
-  color: #1DA1F2; /* Twitter-Farbe */
+  color: #1da1f2; /* Twitter-Farbe */
 }
 
 .fa-pinterest {
-  color: #BD081C; /* Pinterest-Farbe */
+  color: #bd081c; /* Pinterest-Farbe */
 }
 
-.footer-input{
-    border: none;
-    border-bottom: 1px solid #424d44;
-    width: 80%;
+.footer-input {
+  border: none;
+  border-bottom: 1px solid #424d44;
+  width: 80%;
+  height: 2rem;
 }
 
-.footer-input:focus{
-    outline: red;
-    border-bottom: 1px solid #99f2c8
+.footer-input:focus {
+  outline: red;
+  border-bottom: 1px solid #6bded6;
 }
 
-.footer-input::placeholder{
-    color: #424d44;
+.footer-input::placeholder {
+  color: #424d44;
 }
-.footer-sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: start;
-    width: 100%;
-    margin-top: 2rem;
+.footer-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: start;
+  width: 100%;
+  margin-top: 2rem;
 }
-  p{
-      font-size: 1rem;
-
-} 
-
-.button{
-   background: transparent;
-    color: #424d44;
-    border: 1px solid #424d44;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    width: 14rem;
-    
-   
+p {
+  font-size: 1rem;
 }
 
+.button {
+  background: transparent;
+  color: #424d44;
+  border: 1px solid #424d44;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 14rem;
+}
