@@ -1,25 +1,22 @@
-
-
-header{
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    width: 100vw;
-    height: 5rem;
-    display: flex;
-    background-color: #6bded6;
+header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  background-color: #6bded6;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
-    gap: 4rem;
-    width: 100%;
-    margin-right: 5rem;
-    padding: 0;
-   
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+  margin-right: 5rem;
+  padding: 0;
 }
-NavLink{
-   background-color: aliceblue;
+h5 {
+  color: black;
 }

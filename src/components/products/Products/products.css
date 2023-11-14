@@ -1,112 +1,116 @@
-
-
 .title {
   text-align: center;
   margin-top: 5rem;
 }
 .products-container {
-    max-width: 100vw;
-    margin: 0 auto;
-   
+  width: 100vw;
+  max-width: 800vw;
+  margin: 0 auto;
 }
-.product-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin:1rem 5rem;
-    /* gap: 5px; */
-    
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
 }
 .product-item {
-      border: 1px solid #fbfdfd;
-      background: #fbfdfd;
-      padding: 10px;
-      width: 12rem;
-      max-width: 200px;
+  /* border: 1px solid #fbfdfd; */
+  /* background: #fbfdfd; */
+  padding: 10px;
+  width: 12rem;
+  max-width: 200px;
+  border: 1px solid #f6fafa;
+  margin: 0.2rem;
 }
 .products-img {
-    width: 100%;
+  width: 100%;
 }
 
 .product-item-sectionTwo {
-    border: 1px solid #fbfdfd;
-      background: #fbfdfd;
-    padding: 10px;
-    width:16rem;
-    max-width: 30rem;
-    height: 20rem;
-    margin-bottom: 1rem;
-    
+  border: 1px solid #f6fafa;
+  border: 1px solid #f6fafa;
+
+  /* background: #fbfdfd; */
+  padding: 10px;
+  width: 16rem;
+  max-width: 30rem;
+  height: 20rem;
+  margin: 1rem;
 }
 .btn {
-        font-size: .6rem; 
-        color: rgb(86, 91, 86);
-         border: none;              
-        box-shadow: -1px -1px 2px 0px rgba(168, 168, 168, 1);
-        -webkit-box-shadow: -1px -1px 2px 0px rgba(168, 168, 168, 1);
-        -moz-box-shadow: -1px -1px 2px 0px rgba(168, 168, 168, 1);
-        background-color: rgb(242, 239, 245);
+  font-size: 0.6rem;
+  color: rgb(86, 91, 86);
+  border: none;
+  box-shadow: -1px -1px 2px 0px rgba(168, 168, 168, 1);
+  -webkit-box-shadow: -1px -1px 2px 0px rgba(168, 168, 168, 1);
+  -moz-box-shadow: -1px -1px 2px 0px rgba(168, 168, 168, 1);
+  background-color: rgb(242, 239, 245);
 }
 .showing {
-    margin:5rem 5rem 0;
+  margin: 5rem 5rem 0;
 }
 
 .product-list-section-three {
-    display: flex;
-    margin:1rem 5rem;
-
+  display: flex;
+  margin: 1rem 5rem;
 }
 
-.div-img-HOLIDAY-ring {
-    display: flex;
-    align-items: stretch;
-    width: 80vw;
+.div-img-HOLIDAY {
+  display: flex;
+  align-items: stretch;
+  width: 80vw;
 }
 
 .HOLIDAY-RING {
-    width: 100%;
+  width: 100%;
 }
 
 .div-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .product-item-div-right {
-     border: 1px solid #fbfdfd;
-      background: #fbfdfd;
-    padding: 5px;
-    width: 18rem;
-    max-width: 30rem;
-    height: 20rem;
-    margin-bottom: 1rem;
-    margin: 0;
+  border: 1px solid #f6fafa;
+
+  /* background: #fbfdfd; */
+  padding: 5px;
+  width: 18rem;
+  max-width: 30rem;
+  height: 20rem;
+  margin-bottom: 1rem;
+  margin: 0;
 }
 
 .div-holiday-armband {
-     width: 50vw;
+  width: 50vw;
 }
 .HOLIDAY-ARMBAND {
-    width: 100%;
+  width: 100%;
 }
 
-
-.button{
-   background: transparent;
-    color: #424d44;
-    border: 1px solid #424d44;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    width: 14rem;
-    
-   
+.button {
+  background: transparent;
+  color: #424d44;
+  border: 1px solid #424d44;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 14rem;
 }
 
 .div-product-list {
-    display: flex;
-    justify-content:center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.section-5-HOLIDAY-armband {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f3f1f0;
+  margin-top: 5rem;
 }

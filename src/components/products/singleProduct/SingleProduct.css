@@ -1,26 +1,76 @@
-/* Product.css */
-
-.product {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px;
-  text-align: center;
+___________________________________ */
+.cartSidbar-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
 }
 
-.product img {
-  max-width: 100%;
-  height: auto;
+.div-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+  width: 65%;
+
 }
 
-.product button {
-  background-color: #4caf50;
-  color: white;
-  padding: 8px 12px;
-  border: none;
-  cursor: pointer;
+.product-item-div-left {
+
+  border: 1px solid #ecefef;
+  background: #fbfdfd;
+  padding: 20px;
+  width: 20rem;
+  max-width: 30rem;
+  height: 20rem;
+  
 }
 
-.product button:hover {
-  background-color: #45a049;
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 15rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
+  background-color: #e6f1f1;
 }
-/* ________________________________________ */
+
+.experience-p {
+  margin: 0 0 5rem 5rem;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  height: 20rem;
+  margin-top: 4rem;
+}
+
+.sidbar-section-3{
+  display: flex;
+  gap: .5rem;
+  width: 100%;
+
+}
+
+.sidebar-section-5 {
+  display: flex;
+  flex-direction: column; 
+  gap: 2rem;
+  width: 65%;
+  
+}
+.div-Knot-Desktop-armband {
+ margin: 0 auto;
+width:45rem;
+}
+.Knot-Desktop {
+  width: 100%;
+}
+
+.h5-marg {
+  margin-left: 1rem;
+}
