@@ -1,4 +1,3 @@
-
 .cart {
   position: fixed;
   top: 0;
@@ -11,11 +10,10 @@
   border-left: 1px solid #ddd;
   z-index: 1;
   margin-top: 3rem;
-
 }
 
-.cart div{
-     padding: 0;
+.cart div {
+  padding: 0;
   margin-bottom: 10px;
 }
 
@@ -27,24 +25,19 @@
   cursor: pointer;
   margin-bottom: 2rem;
   width: 10rem;
-  /* height: 5rem; */
 }
 
 .cart button:hover {
   background-color: #526963;
-  
 }
 
 .div-box {
-    display: flex;
-    flex-direction: column;
-    /* width: 20px;
-    height: 20px; */
+  display: flex;
+  flex-direction: column;
 }
 
 .div-img {
-    width: 100%;
-  
+  width: 100%;
 }
 
 .div-img-warenkorb {

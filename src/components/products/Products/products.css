@@ -20,14 +20,14 @@
   width: 12rem;
   max-width: 200px;
   border: 1px solid #f6fafa;
-margin: .2rem;
+  margin: 0.2rem;
 }
 .products-img {
   width: 100%;
 }
 
 .product-item-sectionTwo {
-    border: 1px solid #f6fafa;
+  border: 1px solid #f6fafa;
   border: 1px solid #f6fafa;
 
   /* background: #fbfdfd; */
@@ -72,7 +72,7 @@ margin: .2rem;
 }
 
 .product-item-div-right {
-    border: 1px solid #f6fafa;
+  border: 1px solid #f6fafa;
 
   /* background: #fbfdfd; */
   padding: 5px;

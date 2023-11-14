@@ -18,7 +18,6 @@ const Home = () => {
         <div>
           <h2>Unwrap Joy</h2>
           <p>
-            {" "}
             Tiffany holiday gifts have inspired love since 1837.
             <br />
             Discover our most coveted designs for this season and beyond.
@@ -74,29 +73,31 @@ const Home = () => {
         <div>
           <h2>A Brilliant Proposal</h2>
           <p>
-            {" "}
             In 1886, Tiffany introduced the engagement
-            <br />ring as we know it. This holiday, write the
-             <br />next chapter of your love story.
+            <br />
+            ring as we know it. This holiday, write the
+            <br />
+            next chapter of your love story.
           </p>
           <a href="/link1">
-            Love & Engagement <span>icon {">"} </span>{" "}
+            Love & Engagement <span>icon {">"} </span>
           </a>
         </div>
       </section>
       <section className="section-4">
-        <div className="div-left-section-4" >
+        <div className="div-left-section-4">
           <h2>From the Source</h2>
           <p>
-            {" "}
             Handcrafting the world’s best diamonds
-            <br />starts with knowing where they come from.
-             <br />We proudly trace 100% of our rough
+            <br />
+            starts with knowing where they come from.
+            <br />
+            We proudly trace 100% of our rough
             <br />
             diamonds to known mines and sources.
           </p>
           <a href="/link1">
-            Follow Your Diamond's Jouney <span>icon {">"} </span>{" "}
+            Follow Your Diamond's Jouney <span>icon {">"} </span>
           </a>
         </div>
         <div className="background-container-4"></div>
@@ -106,13 +107,12 @@ const Home = () => {
         <div>
           <h2>At Your Service</h2>
           <p>
-            {" "}
             <br />
             From finding the present to product personalization,
-            <br />master the art
-            of holiday
-            gifting with a little help from
-            <br />Tiffany & Co. Client Advisors.
+            <br />
+            master the art of holiday gifting with a little help from
+            <br />
+            Tiffany & Co. Client Advisors.
           </p>
           <button className="button">Sing up</button>
         </div>

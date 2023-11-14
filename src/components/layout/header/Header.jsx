@@ -7,21 +7,18 @@ const Header = () => {
         <nav>
           <div>
             <NavLink to="/">
-              {" "}
-              <h5>Home & Accessories</h5>{" "}
+              <h5>Home & Accessories</h5>
             </NavLink>
           </div>
 
           <div>
             <NavLink to="/products">
-              {" "}
-              <h5>Jewelry</h5>{" "}
+              <h5>Jewelry</h5>
             </NavLink>
           </div>
           <div>
             <NavLink to="/about">
-              {" "}
-              <h5>Love & Engagement</h5>{" "}
+              <h5>Love & Engagement</h5>
             </NavLink>
           </div>
           <div>

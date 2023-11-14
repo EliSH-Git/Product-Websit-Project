@@ -1,6 +1,5 @@
 // ________________________________________________________________________________________________________________
 import "./products.css";
-// import productsData from "../productsData.json";
 import ringImgList from "../singleProduct/ringImgList";
 import { Link } from "react-router-dom";
 

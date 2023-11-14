@@ -120,7 +120,7 @@ p {
 
 
 .background-container {
-  background-image: url("src/assets/image/Background Bilder/istockphoto-956187776-2048x2048.webp");
+  background-image: url("src/components/home/image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

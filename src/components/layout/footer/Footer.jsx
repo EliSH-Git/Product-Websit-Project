@@ -104,10 +104,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
-        {" "}
-        <p className="span-right">© T&CO. 2023</p>{" "}
-      
+
+      <p className="span-right">© T&CO. 2023</p>
     </div>
   );
 };
