@@ -1,0 +1,24 @@
+.form-container{
+    display: flex;
+}
+.inputs-container {
+    background-color: #6bded6;
+    height: 50vh;
+    margin: 20px;
+    
+
+}
+.input-section{
+    padding: 20px;
+    cursor: pointer;
+}
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    width: 10rem;
+    /* height: 5rem; */
+}
