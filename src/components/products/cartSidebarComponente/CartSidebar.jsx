@@ -26,23 +26,22 @@ function CartSidebar({cartData}) {
       </div>
       <div>
         {cartItems.length === 0 ? (
-          <p>The list is empty.</p>
+          <p>The shopping cart is empty.</p>
         ) : (
           <div> 
-            <h2>Dein Warenkorb:</h2>
           {cartItems.map((cartItem) => {
             return (
               <div key={cartItem.id} className="div-box">
-                <h3>Dein Item:</h3>
+                <h3>Goods for purchase:</h3>
                 <div className="div-img-warenkorb">
-                  <img src={cartItem.url} alt={cartItem.name} />
+                  <img className="div-img" src={cartItem.url} alt={cartItem.name} />
                 </div>
                 <div className="div-name-price">
                   <p>{cartItem.name}</p>
                   <p>{cartItem.price}$ </p>
                 </div>
                 <button onClick={() =>removeHandleCart(cartItem.id)}>
-                  Dieses Item löschen
+                 DLETE
                 </button>
               </div>
             );
@@ -50,7 +49,7 @@ function CartSidebar({cartData}) {
         </div>
         )}
       </div>
-      <button onClick={clearCart}>Gesamten Warenkorb leeren</button>
+      <button onClick={clearCart}>CLEAR</button>
     </div>
   );
 }
