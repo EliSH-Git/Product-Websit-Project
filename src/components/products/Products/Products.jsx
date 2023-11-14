@@ -108,7 +108,7 @@ function Products() {
           )}
         </div>
       </section>
-      <section className="section-5">
+      <section className="section-5-HOLIDAY-armband">
         <div className="div-holiday-armband">
           <img
             className="HOLIDAY-ARMBAND"

@@ -12,27 +12,30 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 1rem;
-  /* gap: 5px; */
 }
 .product-item {
-  border: 1px solid #fbfdfd;
-  background: #fbfdfd;
+  /* border: 1px solid #fbfdfd; */
+  /* background: #fbfdfd; */
   padding: 10px;
   width: 12rem;
   max-width: 200px;
+  border: 1px solid #f6fafa;
+margin: .2rem;
 }
 .products-img {
   width: 100%;
 }
 
 .product-item-sectionTwo {
-  border: 1px solid #fbfdfd;
-  background: #fbfdfd;
+    border: 1px solid #f6fafa;
+  border: 1px solid #f6fafa;
+
+  /* background: #fbfdfd; */
   padding: 10px;
   width: 16rem;
   max-width: 30rem;
   height: 20rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 .btn {
   font-size: 0.6rem;
@@ -69,8 +72,9 @@
 }
 
 .product-item-div-right {
-  border: 1px solid #fbfdfd;
-  background: #fbfdfd;
+    border: 1px solid #f6fafa;
+
+  /* background: #fbfdfd; */
   padding: 5px;
   width: 18rem;
   max-width: 30rem;
@@ -100,4 +104,13 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+.section-5-HOLIDAY-armband {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f3f1f0;
+  margin-top: 5rem;
 }

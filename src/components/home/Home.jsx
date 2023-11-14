@@ -4,8 +4,8 @@ import ringImgList from "../products/singleProduct/ringImgList";
 const Home = () => {
   return (
     <>
-      <h4> TIFFANY & CO.</h4>
-      <section className="section-5">
+      <h4> GOLDEN & CO.</h4>
+      <section className="section-5-video">
         <div className="background-container-video">
           <video controls width="100%">
             <source
@@ -69,15 +69,15 @@ const Home = () => {
           )}
         </div>
       </section>
-      <section className="section-3">
-        <div className="background-container"></div>
+      <section className="section-3-background">
+        <div className="section-3-background-container"></div>
         <div>
           <h2>A Brilliant Proposal</h2>
           <p>
             {" "}
-            In 1886, Tiffany introduced the engagement ring as we know it.
-            <br />
-            This holiday, write the next chapter of your love story.
+            In 1886, Tiffany introduced the engagement
+            <br />ring as we know it. This holiday, write the
+             <br />next chapter of your love story.
           </p>
           <a href="/link1">
             Love & Engagement <span>icon {">"} </span>{" "}
@@ -85,13 +85,13 @@ const Home = () => {
         </div>
       </section>
       <section className="section-4">
-        <div>
+        <div className="div-left-section-4" >
           <h2>From the Source</h2>
           <p>
             {" "}
-            Handcrafting the world’s best diamonds starts with knowing
-            <br />
-            where they come from. We proudly trace 100% of our rough
+            Handcrafting the world’s best diamonds
+            <br />starts with knowing where they come from.
+             <br />We proudly trace 100% of our rough
             <br />
             diamonds to known mines and sources.
           </p>
@@ -99,19 +99,20 @@ const Home = () => {
             Follow Your Diamond's Jouney <span>icon {">"} </span>{" "}
           </a>
         </div>
-        <div className="background-container-two"></div>
+        <div className="background-container-4"></div>
       </section>
-      <section className="section-5">
-        <div className="background-container-three"></div>
+      <section className="section-6-background">
+        <div className="background-container"></div>
         <div>
           <h2>At Your Service</h2>
           <p>
             {" "}
             <br />
-            From finding the present to product personalization, master the art
+            From finding the present to product personalization,
+            <br />master the art
             of holiday
-            <br />
-            gifting with a little help from Tiffany & Co. Client Advisors.
+            gifting with a little help from
+            <br />Tiffany & Co. Client Advisors.
           </p>
           <button className="button">Sing up</button>
         </div>
